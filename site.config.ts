@@ -17,9 +17,11 @@ export default siteConfig({
   description: 'Thomas Ulman goes down the rabbit hole',
 
   // social usernames (optional)
-  // twitter: 'transitive_bs',
+  
   linkedin: 'thomasulman',
-  // github: 'transitive-bullshit',
+  github: 'ImAlmostHuman',
+  twitter: 'TomUlman',
+  // dribbble: 'ThomasUlman',
   // mastodon: '#', // optional mastodon profile URL, provides link verification
   // newsletter: '#', // optional newsletter URL
   // youtube: '#', // optional youtube channel name or `channel/UCGbXXXXXXXXXXXXXXXXXXXXXX`
