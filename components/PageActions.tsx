@@ -20,7 +20,7 @@ export const PageActions: React.FC<{ tweet: string }> = ({ tweet }) => {
       >
         <IoHeartOutline />
       </a>
-
+ 
       <a
         className={styles.retweet}
         href={`https://twitter.com/intent/retweet?tweet_id=${tweet}`}
