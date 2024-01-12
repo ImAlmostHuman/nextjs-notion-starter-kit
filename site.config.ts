@@ -10,7 +10,7 @@ export default siteConfig({
 
   // basic site info (required)
   name: 'Thomas Ulman',
-  domain: 'thomasulman.com',
+  domain: 'tompwu.com',
   author: 'Thomas Ulman',
 
   // open graph metadata (optional)
@@ -18,9 +18,9 @@ export default siteConfig({
 
   // social usernames (optional)
   
-  linkedin: 'thomasulman',
-  github: 'ImAlmostHuman',
-  twitter: 'TomUlman',
+  linkedin: 'tompwu',
+  github: 'tompwu',
+  twitter: 'tompwu',
   // dribbble: 'ThomasUlman',
   // mastodon: '#', // optional mastodon profile URL, provides link verification
   // newsletter: '#', // optional newsletter URL
