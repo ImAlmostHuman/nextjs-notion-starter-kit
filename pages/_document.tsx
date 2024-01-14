@@ -18,6 +18,21 @@ export default class MyDocument extends Document {
             />
 
             <link rel='manifest' href='/manifest.json' />
+
+            {/* TruConversion Tracking Code */}
+          <script dangerouslySetInnerHTML={{
+            __html: `
+              var _tip = _tip || [];
+              (function(d,s,id){
+                var js, tjs = d.getElementsByTagName(s)[0];
+                if(d.getElementById(id)) { return; }
+                js = d.createElement(s); js.id = id;
+                js.async = true;
+                js.src = d.location.protocol + '//app.truconversion.com/ti-js/35427/935c3.js';
+                tjs.parentNode.insertBefore(js, tjs);
+              }(document, 'script', 'ti-js'));
+            `,
+          }} />
           </Head>
 
           <body>
